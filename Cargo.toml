@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 audiotags = "0.4.1"
 rodio = "0.17.3"
+tokio = { version = "1.35.1", features = ["time", "full"] }
